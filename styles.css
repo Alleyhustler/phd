@@ -1,0 +1,33 @@
+body {
+    background-image: url('Please.png'); /* Replace with your actual image path */
+    background-size: 100% 100%; /* Ensures the image covers both width and height */
+    background-position: top center; /* Centers the image and starts from the top */
+    background-repeat: no-repeat; /* Prevents repetition */
+    background-attachment: scroll; /* Allows the background to scroll */
+    min-height: 400vh; /* Ensures a large scrollable area */
+    margin: 0; /* Removes default margins */
+}
+.content {
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Social media icons */
+.social-icons {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    gap: 15px;
+}
+
+.social-icons img {
+    width: 40px;
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.social-icons img:hover {
+    transform: scale(1.2);
+}
